@@ -32,6 +32,7 @@ body {
     margin-top: 120px;
 }
 
+/* Se caso tiver imagem */
 .imagemresponsiva {
     max-width: 100%;
     height: auto;
