@@ -1,12 +1,12 @@
 body {
-    background-color: #f3edd7;
+    background-color: #F8F0E3;
     margin: 0;
     padding-top: 60px;
 }
 
 .conteudo {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    background-color: #dbe3b4;
+    
     padding: 10px;
     margin: 10px;
     margin-bottom: 120px;
@@ -52,7 +52,7 @@ mark {
     position: fixed;
     width: 100%;
     top: 0;
-    background-color: #8a6f58;
+    background-color: #3b8132;
     color: #fff;
     padding: 10px 20px;
     box-sizing: border-box;
@@ -90,7 +90,7 @@ mark {
 
 .menu li a:hover {
     background-color: 
-    #abc27c;
+    #52a447;
 }
 
 .toggle-menu {
@@ -136,14 +136,14 @@ mark {
     }
 }
 
-/* Restante do seu CSS permanece o mesmo */
+    /* Restante do seu CSS permanece o mesmo */
 @media screen and (max-width: 768px) {
     /* Restante do seu CSS para dispositivos móveis permanece o mesmo */
     
     .menu-links.active {
         display: block;
         position: absolute;
-        background-color: #8a6f58;
+        background-color: #3b8132;
         top: 60px;
         left: 0;
         width: 100%;
@@ -151,7 +151,7 @@ mark {
 }
 
 .rodape {
-    background-color: #8a6f58;
+    background-color: #3b8132;
     position: fixed;
     bottom: 0;
     width: 100%;
