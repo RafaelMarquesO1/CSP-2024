@@ -1,19 +1,40 @@
+@media (max-width: 768px) {
+    .section1 {
+        padding: 10vw; /* Aumenta o espaçamento interno para telas menores */
+    }
+    .section1 h2 {
+        font-size: 5vw; /* Ajusta o tamanho da fonte para telas menores */
+    }
+    .section1 p {
+        font-size: 3vw; /* Ajusta o tamanho da fonte para telas menores */
+    }
+}
+
 body {
-    background-color: #F8F0E3;
+    background-color: white;
     margin: 0;
-    padding-top: 60px;
+    padding-top: 0;
 }
 
 .conteudo {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    
-    padding: 10px;
-    margin: 10px;
-    margin-bottom: 120px;
+    padding: 150px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 300px;
+    background-color: #F8F0E3;
 }
 
 #texto01 {
     text-align: center;
+}
+
+#t-titulo {
+    font-size: 60px;
+    margin: 0;
 }
 
 .texto_espacado {
@@ -27,9 +48,8 @@ body {
 
 .conteudo2 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    padding: 10px;
-    margin: 10px;
-    margin-top: 120px;
+    background-color: #ddd; /* Cor de fundo da segunda seção */
+    padding: 100px;
 }
 
 /* Se caso tiver imagem */
