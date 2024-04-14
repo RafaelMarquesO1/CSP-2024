@@ -10,6 +10,22 @@
     }
 }
 
+.lista-incentivo li {
+    padding-bottom: 12px;
+    list-style-type: none;
+    margin: 10px;
+}
+
+.lista-incentivo li a {
+    text-decoration: none;
+    color: #3b8132;
+}
+
+.lista-incentivo li a:hover {
+    color: #abc27c;
+    transition: color 0.3s;
+}
+
 body {
     background-color: white;
     margin: 0;
@@ -48,7 +64,7 @@ body {
 
 .conteudo2 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    background-color: #ddd; /* Cor de fundo da segunda seção */
+    background-color: #F2F8E3; /* Cor de fundo da segunda seção */
     padding: 100px;
 }
 
