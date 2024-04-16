@@ -19,11 +19,13 @@
 .lista-incentivo li a {
     text-decoration: none;
     color: #3b8132;
+    font-size: 18px;
 }
 
 .lista-incentivo li a:hover {
     color: #abc27c;
     transition: color 0.3s;
+    text-decoration:underline
 }
 
 body {
@@ -34,7 +36,7 @@ body {
 
 .conteudo {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    padding: 150px;
+    padding: 250px;
     text-align: center;
     display: flex;
     justify-content: center;
@@ -64,7 +66,7 @@ body {
 
 .conteudo2 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    background-color: #F2F8E3; /* Cor de fundo da segunda seção */
+    background-color: #FFFFFF; /* Cor de fundo da segunda seção */
     padding: 100px;
 }
 
