@@ -3,48 +3,52 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <link rel="stylesheet" href="geral.css">
-
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-
-    <title>Início - TESTE</title>
+    <link rel="shortcut icon" href="assets/img/favicon-vacinicigreen.svg" type="image/x-icon">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Vacinici - Início</title>
 </head>
 <body>
-    <nav class="navbar">
-        <div class="container">
-            <div class="logo">VacinaCheck</div>
-            <ul class="menu menu-links">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="carteira.html">Carteira de Vacinação</a></li>
-                <li><a href="login.html">Login</a></li>
+    <header>
+        <nav class="nav-bar">
+            <div class="logo">
+                <h1>Vacinici</h1>
+            </div>
+
+            <div class="nav-list">
+                <ul>
+                    <li class="nav-item"><a href="#" class="nav-link">Início</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Carteirinha</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Perfil</a></li>
+                </ul>
+            </div>
+
+            <div class="login-button">
+                <button><a href="#">Entrar</a></button>
+            </div>
+
+            <div class="mobile-menu-icon">
+                <button onclick="menuShow()"><img class="icon" src="assets/img/menu_white_36dp.svg" alt=""></button>
+            </div>
+        </nav>
+
+        <div class="mobile-menu">
+            <ul>
+                <li class="nav-item"><a href="#" class="nav-link">Início</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Carteirinha</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Perfil</a></li>
             </ul>
-            <div class="toggle-menu">&#9776;</div>
+
+            <div class="login-button">
+                <button><a href="#">Entrar</a></button>
+            </div>
         </div>
-    </nav>
+    </header>
 
-    <div class="conteudo">
-        <h1 style="font-size: 5vw;">Mantenha sua Carteirinha de Vacinação em Dia!</h1>
-        <p style="font-size: 25px">Proteja-se e proteja os outros! Manter sua carteirinha de vacinação atualizada é essencial para a sua saúde e para a comunidade. Descubra como podemos ajudar você a monitorar suas vacinas e permanecer protegido.</p>
-    </div>
+    <section class="c01">
+        <h1>Carteira de Vacinação Online</h1>
+        <p>Sua Carteirinha de vacinação online está sempre com você em qualquer lugar, prezando por você e sua saúde.</p>
+    </section>
 
-    
-
-    <div class="conteudo2">
-        <h1>Confira nossa ferramenta fácil de uso para manter sua carteirinha digital em ordem. Fique protegido. Fique seguro.</h1>
-
-        <ul class="lista-incentivo" style="padding-left: 0;">
-            <li><a href="#">Benefícios da Vacinação.</a></li>
-            <li><a href="#">Importancia em registrar suas vacinas.</a></li>
-            <li><a href="#">Acesso conveniente à sua carteirinha digital.</a></li>
-        </ul>
-    </div>
-
-    <footer>
-        <div class="rodape">
-            <p>&copy; FiebTECH - 2024 - Grupo 05</p>
-        </div>
-    </footer>
-    <script src="main.js"></script>
+    <script src="assets/js/script.js"></script>
 </body>
 </html>
