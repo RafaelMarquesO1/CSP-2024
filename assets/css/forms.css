@@ -62,10 +62,12 @@ body {
     padding: 0.4rem 1rem;
     border-radius: 5px;
     cursor: pointer;
+    transition: 400ms;
 }
 
 .login-button button:hover {
-    background-color: #4c6e3c;
+    background-color: #3f5c32;
+    transition: 400ms;
 }
 
 .login-button button a {
@@ -156,10 +158,12 @@ body {
     padding: 0.62rem;
     border-radius: 5px;
     cursor: pointer;
+    transition: 400ms;
 }
 
 .continue-button button:hover {
     background-color: #4c6e3c;
+    transition: 400ms;
 }
 
 .continue-button button a {
