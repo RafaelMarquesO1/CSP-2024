@@ -40,3 +40,31 @@ body {
 .textPainel {
     display: flex;
 }
+
+.continue-button button {
+    border: none;
+    background-color: #679750;
+    padding: 0.4rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 400ms;
+}
+
+.continue-button {
+    padding-top: 30px;
+}
+
+.continue-button button:hover {
+    background-color: #3f5c32;
+    transition: 400ms;
+}
+
+.continue-button button a {
+    text-decoration: none;
+    font-weight: 500;
+    color: #fff;
+}
+
+.button-list {
+    padding-top: 10px;
+}
